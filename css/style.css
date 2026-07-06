@@ -111,17 +111,14 @@ header {
 }
 
 .logo {
-    font-family: var(--font-display);
-    font-size: 42px;
-    color: var(--color-orange);
     display: flex;
     align-items: center;
-    gap: 8px;
 }
 
-.logo i {
-    font-size: 28px;
-    color: var(--color-olive);
+.logo img {
+    height: 56px;
+    width: auto;
+    display: block;
 }
 
 .nav-links {
@@ -160,7 +157,7 @@ header {
 
 /* 2. HERO */
 .hero {
-    background: linear-gradient(rgba(59, 42, 37, 0.4), rgba(59, 42, 37, 0.4)), url('https://images.unsplash.com/photo-1593113563332-f14436515dd8?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80') center/cover;
+    background: linear-gradient(rgba(59, 42, 37, 0.4), rgba(59, 42, 37, 0.4)), url('../images/download.jpg') center/cover;
     height: 500px;
     display: flex;
     align-items: center;
@@ -599,11 +596,17 @@ footer {
 }
 
 .footer-logo {
-    font-family: var(--font-display);
-    font-size: 36px;
-    color: var(--color-orange);
-    margin-bottom: 15px;
     display: inline-block;
+    margin-bottom: 15px;
+    background: white;
+    padding: 10px 14px;
+    border-radius: 6px;
+}
+
+.footer-logo img {
+    height: 40px;
+    width: auto;
+    display: block;
 }
 
 .footer-socials {
@@ -672,8 +675,8 @@ footer h5 {
 }
 
 @media (max-width: 768px) {
-    .logo {
-        font-size: 30px;
+    .logo img {
+        height: 44px;
     }
     .nav-toggle-label {
         display: block;
@@ -700,13 +703,8 @@ footer h5 {
 }
 
 @media (max-width: 480px) {
-    .logo {
-        font-size: 22px;
-        gap: 4px;
-        white-space: nowrap;
-    }
-    .logo i {
-        font-size: 18px;
+    .logo img {
+        height: 36px;
     }
     .nav-container .btn {
         padding: 8px 14px;
