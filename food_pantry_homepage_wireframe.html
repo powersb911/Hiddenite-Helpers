@@ -1,0 +1,303 @@
+
+<h2 class="sr-only">Homepage wireframe for nonprofit food pantry website, organized for donor conversion</h2>
+<style>
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+.ws{margin-bottom:5px;border-radius:var(--border-radius-lg);overflow:hidden;border:0.5px solid var(--color-border-tertiary)}
+.wh{font-size:12px;color:var(--color-text-secondary);padding:6px 12px;background:var(--color-background-secondary);border-bottom:0.5px solid var(--color-border-tertiary);display:flex;align-items:center;justify-content:space-between}
+.wh b{font-weight:500;color:var(--color-text-primary)}
+.wb{padding:12px;background:var(--color-background-primary)}
+.note{font-size:11px;color:var(--color-text-tertiary);font-style:italic;margin:0 0 8px}
+.ph{background:var(--color-background-secondary);border-radius:var(--border-radius-md);display:flex;align-items:center;justify-content:center;color:var(--color-text-tertiary);font-size:11px;border:0.5px dashed var(--color-border-secondary)}
+.pill{font-size:11px;padding:2px 8px;border-radius:20px;font-weight:500}
+.pg{background:var(--color-background-success);color:var(--color-text-success)}
+.pw{background:var(--color-background-warning);color:var(--color-text-warning)}
+.pi{background:var(--color-background-info);color:var(--color-text-info)}
+.btn-d{background:var(--color-background-success);color:var(--color-text-success);padding:5px 12px;border-radius:var(--border-radius-md);font-size:11px;font-weight:500;display:inline-flex;align-items:center;gap:4px}
+.btn-o{border:0.5px solid var(--color-border-secondary);color:var(--color-text-primary);padding:5px 12px;border-radius:var(--border-radius-md);font-size:11px;font-weight:500;display:inline-flex;align-items:center;gap:4px}
+.metric{background:var(--color-background-secondary);border-radius:var(--border-radius-md);padding:8px;text-align:center}
+.tier{background:var(--color-background-primary);border:0.5px solid var(--color-border-tertiary);border-radius:var(--border-radius-lg);padding:10px}
+.tier.star{border:2px solid var(--color-border-info)}
+.way{background:var(--color-background-secondary);border-radius:var(--border-radius-lg);padding:10px;text-align:center;display:flex;flex-direction:column;align-items:center;gap:5px}
+.step{text-align:center;display:flex;flex-direction:column;align-items:center;gap:3px;flex:1;min-width:0}
+.step-icon{width:44px;height:44px;background:var(--color-background-secondary);border-radius:50%;display:flex;align-items:center;justify-content:center;margin:0 auto}
+</style>
+
+<!-- 1. NAVIGATION -->
+<div class="ws">
+  <div class="wh"><b>Navigation</b> <span class="pill pi">Persistent — every page</span></div>
+  <div class="wb" style="display:flex;align-items:center;justify-content:space-between;gap:12px;">
+    <div class="ph" style="width:80px;height:32px;flex-shrink:0;">Logo</div>
+    <div style="display:flex;gap:16px;font-size:12px;color:var(--color-text-secondary);">
+      <span>Home</span><span>About us</span><span>Ways to help ▾</span><span>Gallery</span><span>Contact</span>
+    </div>
+    <span class="btn-d" style="flex-shrink:0;"><i class="ti ti-heart" aria-hidden="true" style="font-size:12px;"></i> Donate now</span>
+  </div>
+</div>
+
+<!-- 2. HERO -->
+<div class="ws">
+  <div class="wh"><b>Hero section</b> <span class="pill pg">Primary conversion point</span></div>
+  <div class="wb" style="padding:0;">
+    <div class="ph" style="height:160px;border-radius:0;border:none;flex-direction:column;gap:8px;padding:12px;">
+      <i class="ti ti-photo" aria-hidden="true" style="font-size:18px;"></i>
+      <div style="font-size:11px;">Full-width photo — real people, families, warmth (not stock)</div>
+      <div style="font-size:14px;font-weight:500;color:var(--color-text-primary);">"Nourishing [your city], one family at a time"</div>
+      <div style="font-size:11px;color:var(--color-text-secondary);">500+ families served every month in our community</div>
+      <div style="display:flex;gap:8px;">
+        <span class="btn-d"><i class="ti ti-heart" aria-hidden="true" style="font-size:12px;"></i> Donate now</span>
+        <span class="btn-o"><i class="ti ti-user" aria-hidden="true" style="font-size:12px;"></i> Volunteer</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- 3. IMPACT STATS -->
+<div class="ws">
+  <div class="wh"><b>Impact stats bar</b> <span class="pill pw">Builds trust immediately</span></div>
+  <div class="wb">
+    <p class="note">Replace placeholders with your real numbers — donors give more when they see proof of impact</p>
+    <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:8px;">
+      <div class="metric">
+        <i class="ti ti-users" aria-hidden="true" style="font-size:18px;color:var(--color-text-secondary);display:block;margin-bottom:3px;"></i>
+        <div style="font-size:18px;font-weight:500;color:var(--color-text-primary);">500+</div>
+        <div style="font-size:11px;color:var(--color-text-secondary);">Families served monthly</div>
+      </div>
+      <div class="metric">
+        <i class="ti ti-package" aria-hidden="true" style="font-size:18px;color:var(--color-text-secondary);display:block;margin-bottom:3px;"></i>
+        <div style="font-size:18px;font-weight:500;color:var(--color-text-primary);">10,000 lbs</div>
+        <div style="font-size:11px;color:var(--color-text-secondary);">Food distributed</div>
+      </div>
+      <div class="metric">
+        <i class="ti ti-calendar" aria-hidden="true" style="font-size:18px;color:var(--color-text-secondary);display:block;margin-bottom:3px;"></i>
+        <div style="font-size:18px;font-weight:500;color:var(--color-text-primary);">10 years</div>
+        <div style="font-size:11px;color:var(--color-text-secondary);">Serving the community</div>
+      </div>
+      <div class="metric">
+        <i class="ti ti-heart" aria-hidden="true" style="font-size:18px;color:var(--color-text-secondary);display:block;margin-bottom:3px;"></i>
+        <div style="font-size:18px;font-weight:500;color:var(--color-text-primary);">150+</div>
+        <div style="font-size:11px;color:var(--color-text-secondary);">Active volunteers</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- 4. HOW IT WORKS -->
+<div class="ws">
+  <div class="wh"><b>How your donation works</b> <span class="pill pw">Removes hesitation — transparency</span></div>
+  <div class="wb">
+    <p class="note">Directly adapted from Groundy's 4-step flow — shows exactly where the money goes</p>
+    <div style="display:flex;align-items:flex-start;gap:4px;">
+      <div class="step">
+        <div class="step-icon"><i class="ti ti-heart" aria-hidden="true" style="font-size:18px;color:var(--color-text-success);"></i></div>
+        <div style="font-size:12px;font-weight:500;color:var(--color-text-primary);margin-top:4px;">You donate</div>
+        <div style="font-size:11px;color:var(--color-text-secondary);">Online or in-person</div>
+      </div>
+      <div style="font-size:16px;color:var(--color-text-tertiary);padding-top:11px;flex-shrink:0;">→</div>
+      <div class="step">
+        <div class="step-icon"><i class="ti ti-truck" aria-hidden="true" style="font-size:18px;color:var(--color-text-secondary);"></i></div>
+        <div style="font-size:12px;font-weight:500;color:var(--color-text-primary);margin-top:4px;">We source</div>
+        <div style="font-size:11px;color:var(--color-text-secondary);">Local farms &amp; partners</div>
+      </div>
+      <div style="font-size:16px;color:var(--color-text-tertiary);padding-top:11px;flex-shrink:0;">→</div>
+      <div class="step">
+        <div class="step-icon"><i class="ti ti-package" aria-hidden="true" style="font-size:18px;color:var(--color-text-secondary);"></i></div>
+        <div style="font-size:12px;font-weight:500;color:var(--color-text-primary);margin-top:4px;">We pack</div>
+        <div style="font-size:11px;color:var(--color-text-secondary);">Volunteers pack boxes</div>
+      </div>
+      <div style="font-size:16px;color:var(--color-text-tertiary);padding-top:11px;flex-shrink:0;">→</div>
+      <div class="step">
+        <div class="step-icon"><i class="ti ti-home" aria-hidden="true" style="font-size:18px;color:var(--color-text-secondary);"></i></div>
+        <div style="font-size:12px;font-weight:500;color:var(--color-text-primary);margin-top:4px;">Families eat</div>
+        <div style="font-size:11px;color:var(--color-text-secondary);">Fresh food, real impact</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- 5. DONATION TIERS -->
+<div class="ws">
+  <div class="wh"><b>Donation tiers</b> <span class="pill pg">Highest-converting section</span></div>
+  <div class="wb">
+    <p class="note">Monthly giving cards lifted straight from Groundy's subscription model — concrete impact per tier drives recurring commitment</p>
+    <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-bottom:8px;">
+      <div class="tier">
+        <div style="font-size:11px;color:var(--color-text-secondary);margin-bottom:3px;">Friend</div>
+        <div style="font-size:22px;font-weight:500;color:var(--color-text-primary);">$25<span style="font-size:12px;font-weight:400;">/mo</span></div>
+        <div style="font-size:11px;color:var(--color-text-secondary);margin:5px 0 8px;">Feeds a family for one week</div>
+        <div style="display:flex;flex-direction:column;gap:3px;font-size:11px;color:var(--color-text-secondary);margin-bottom:8px;">
+          <span><i class="ti ti-check" aria-hidden="true" style="font-size:12px;color:var(--color-text-success);"></i> Monthly impact email</span>
+          <span><i class="ti ti-check" aria-hidden="true" style="font-size:12px;color:var(--color-text-success);"></i> Donor newsletter</span>
+        </div>
+        <span class="btn-o" style="width:100%;justify-content:center;">Give $25/mo</span>
+      </div>
+      <div class="tier star">
+        <span style="background:var(--color-background-info);color:var(--color-text-info);font-size:11px;font-weight:500;padding:2px 8px;border-radius:20px;display:inline-block;margin-bottom:3px;">Most popular</span>
+        <div style="font-size:11px;color:var(--color-text-secondary);margin-bottom:3px;">Champion</div>
+        <div style="font-size:22px;font-weight:500;color:var(--color-text-primary);">$50<span style="font-size:12px;font-weight:400;">/mo</span></div>
+        <div style="font-size:11px;color:var(--color-text-secondary);margin:5px 0 8px;">Feeds two families for a week</div>
+        <div style="display:flex;flex-direction:column;gap:3px;font-size:11px;color:var(--color-text-secondary);margin-bottom:8px;">
+          <span><i class="ti ti-check" aria-hidden="true" style="font-size:12px;color:var(--color-text-success);"></i> Monthly impact email</span>
+          <span><i class="ti ti-check" aria-hidden="true" style="font-size:12px;color:var(--color-text-success);"></i> Donor newsletter</span>
+          <span><i class="ti ti-check" aria-hidden="true" style="font-size:12px;color:var(--color-text-success);"></i> Personalized thank-you</span>
+        </div>
+        <span class="btn-d" style="width:100%;justify-content:center;"><i class="ti ti-heart" aria-hidden="true" style="font-size:12px;"></i> Give $50/mo</span>
+      </div>
+      <div class="tier">
+        <div style="font-size:11px;color:var(--color-text-secondary);margin-bottom:3px;">Sustainer</div>
+        <div style="font-size:22px;font-weight:500;color:var(--color-text-primary);">$100<span style="font-size:12px;font-weight:400;">/mo</span></div>
+        <div style="font-size:11px;color:var(--color-text-secondary);margin:5px 0 8px;">Feeds a family for a full month</div>
+        <div style="display:flex;flex-direction:column;gap:3px;font-size:11px;color:var(--color-text-secondary);margin-bottom:8px;">
+          <span><i class="ti ti-check" aria-hidden="true" style="font-size:12px;color:var(--color-text-success);"></i> All Champion perks</span>
+          <span><i class="ti ti-check" aria-hidden="true" style="font-size:12px;color:var(--color-text-success);"></i> Annual recognition event</span>
+          <span><i class="ti ti-check" aria-hidden="true" style="font-size:12px;color:var(--color-text-success);"></i> Name on donor wall</span>
+        </div>
+        <span class="btn-o" style="width:100%;justify-content:center;">Give $100/mo</span>
+      </div>
+    </div>
+    <div style="background:var(--color-background-secondary);border-radius:var(--border-radius-md);padding:10px;display:flex;align-items:center;justify-content:space-between;gap:12px;">
+      <span style="font-size:12px;color:var(--color-text-secondary);">Prefer a one-time gift? Enter any amount.</span>
+      <div style="display:flex;gap:8px;align-items:center;flex-shrink:0;">
+        <div class="ph" style="width:90px;height:28px;font-size:11px;">$ amount</div>
+        <span class="btn-d"><i class="ti ti-heart" aria-hidden="true" style="font-size:12px;"></i> Donate</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- 6. WAYS TO HELP -->
+<div class="ws">
+  <div class="wh"><b>Other ways to help</b> <span class="pill pi">Captures non-cash donors &amp; volunteers</span></div>
+  <div class="wb">
+    <p class="note">Not everyone gives money — these four paths keep every visitor engaged and moving toward action</p>
+    <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:8px;">
+      <div class="way">
+        <i class="ti ti-gift" aria-hidden="true" style="font-size:22px;color:var(--color-text-secondary);"></i>
+        <div style="font-size:12px;font-weight:500;color:var(--color-text-primary);">Donate food</div>
+        <div style="font-size:11px;color:var(--color-text-secondary);">Drop off at any of our locations</div>
+        <span class="btn-o" style="font-size:11px;padding:4px 10px;">Learn more</span>
+      </div>
+      <div class="way">
+        <i class="ti ti-user" aria-hidden="true" style="font-size:22px;color:var(--color-text-secondary);"></i>
+        <div style="font-size:12px;font-weight:500;color:var(--color-text-primary);">Volunteer</div>
+        <div style="font-size:11px;color:var(--color-text-secondary);">Pack boxes, sort donations, run drives</div>
+        <span class="btn-o" style="font-size:11px;padding:4px 10px;">Sign up</span>
+      </div>
+      <div class="way">
+        <i class="ti ti-calendar" aria-hidden="true" style="font-size:22px;color:var(--color-text-secondary);"></i>
+        <div style="font-size:12px;font-weight:500;color:var(--color-text-primary);">Host a food drive</div>
+        <div style="font-size:11px;color:var(--color-text-secondary);">At your school, church, or workplace</div>
+        <span class="btn-o" style="font-size:11px;padding:4px 10px;">Get a kit</span>
+      </div>
+      <div class="way">
+        <i class="ti ti-star" aria-hidden="true" style="font-size:22px;color:var(--color-text-secondary);"></i>
+        <div style="font-size:12px;font-weight:500;color:var(--color-text-primary);">Corporate sponsor</div>
+        <div style="font-size:11px;color:var(--color-text-secondary);">Partner for larger community impact</div>
+        <span class="btn-o" style="font-size:11px;padding:4px 10px;">Partner with us</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- 7. ABOUT SNIPPET -->
+<div class="ws">
+  <div class="wh"><b>About / our story</b> <span class="pill pw">Emotional connection — keeps donors</span></div>
+  <div class="wb">
+    <p class="note">2–3 sentences, specific to your community — avoid generic nonprofit language</p>
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px;align-items:center;">
+      <div>
+        <div style="font-size:13px;font-weight:500;color:var(--color-text-primary);margin-bottom:5px;">Why we exist</div>
+        <div style="font-size:12px;color:var(--color-text-secondary);line-height:1.6;margin-bottom:10px;">Your origin story here — when you started, who you serve, why it matters. Keep it personal and local.</div>
+        <span class="btn-o" style="font-size:11px;"><i class="ti ti-arrow-right" aria-hidden="true" style="font-size:12px;"></i> Our full story</span>
+      </div>
+      <div class="ph" style="height:90px;">Photo — volunteers in action</div>
+    </div>
+  </div>
+</div>
+
+<!-- 8. GALLERY PREVIEW -->
+<div class="ws">
+  <div class="wh"><b>Gallery preview</b> <span class="pill pw">Social proof</span></div>
+  <div class="wb">
+    <p class="note">6 real photos — events, food drives, smiling faces. Links to full gallery page.</p>
+    <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:6px;margin-bottom:0;">
+      <div class="ph" style="height:68px;">Photo 1</div>
+      <div class="ph" style="height:68px;">Photo 2</div>
+      <div class="ph" style="height:68px;">Photo 3</div>
+      <div class="ph" style="height:68px;">Photo 4</div>
+      <div class="ph" style="height:68px;">Photo 5</div>
+      <div class="ph" style="height:68px;flex-direction:column;gap:2px;">
+        <span style="font-size:11px;color:var(--color-text-secondary);">+ 50 more</span>
+        <span style="font-size:11px;color:var(--color-text-secondary);">View gallery →</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- 9. PARTNERS -->
+<div class="ws">
+  <div class="wh"><b>Partners &amp; sponsors</b> <span class="pill pi">Credibility signal</span></div>
+  <div class="wb">
+    <p class="note">Logos from local businesses, churches, schools — signals trust and community roots</p>
+    <div style="display:flex;gap:8px;align-items:center;">
+      <div class="ph" style="height:40px;flex:1;">Partner 1</div>
+      <div class="ph" style="height:40px;flex:1;">Partner 2</div>
+      <div class="ph" style="height:40px;flex:1;">Partner 3</div>
+      <div class="ph" style="height:40px;flex:1;">Partner 4</div>
+      <div class="ph" style="height:40px;flex:1;">Partner 5</div>
+    </div>
+  </div>
+</div>
+
+<!-- 10. NEWSLETTER -->
+<div class="ws">
+  <div class="wh"><b>Email capture</b> <span class="pill pg">Long-term donor nurture</span></div>
+  <div class="wb">
+    <div style="display:flex;align-items:center;justify-content:space-between;gap:16px;">
+      <div>
+        <div style="font-size:13px;font-weight:500;color:var(--color-text-primary);margin-bottom:4px;">Stay in the loop</div>
+        <div style="font-size:11px;color:var(--color-text-secondary);">Monthly updates on impact, upcoming drives, and ways to help</div>
+      </div>
+      <div style="display:flex;gap:8px;flex-shrink:0;align-items:center;">
+        <div class="ph" style="width:170px;height:32px;font-size:11px;">Email address</div>
+        <span class="btn-d">Subscribe</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- 11. FOOTER -->
+<div class="ws">
+  <div class="wh"><b>Footer</b> <span class="pill pi">Trust + navigation</span></div>
+  <div class="wb">
+    <div style="display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:16px;font-size:11px;color:var(--color-text-secondary);">
+      <div>
+        <div class="ph" style="width:80px;height:28px;margin-bottom:6px;">Logo</div>
+        <div style="line-height:1.7;margin-bottom:6px;">501(c)(3) nonprofit<br>EIN: XX-XXXXXXX</div>
+        <div style="display:flex;gap:10px;font-size:16px;">
+          <i class="ti ti-brand-facebook" aria-hidden="true"></i>
+          <i class="ti ti-brand-instagram" aria-hidden="true"></i>
+        </div>
+      </div>
+      <div>
+        <div style="font-weight:500;color:var(--color-text-primary);margin-bottom:5px;">Navigate</div>
+        <div style="display:flex;flex-direction:column;gap:3px;line-height:1.6;">
+          <span>Home</span><span>About us</span><span>Ways to help</span><span>Gallery</span><span>Contact</span>
+        </div>
+      </div>
+      <div>
+        <div style="font-weight:500;color:var(--color-text-primary);margin-bottom:5px;">Ways to help</div>
+        <div style="display:flex;flex-direction:column;gap:3px;line-height:1.6;">
+          <span>Donate money</span><span>Donate food</span><span>Volunteer</span><span>Host a drive</span><span>Sponsor</span>
+        </div>
+      </div>
+      <div>
+        <div style="font-weight:500;color:var(--color-text-primary);margin-bottom:5px;">Contact</div>
+        <div style="display:flex;flex-direction:column;gap:4px;line-height:1.6;">
+          <span><i class="ti ti-mail" aria-hidden="true" style="font-size:12px;"></i> info@[org].org</span>
+          <span><i class="ti ti-phone" aria-hidden="true" style="font-size:12px;"></i> (xxx) xxx-xxxx</span>
+          <span><i class="ti ti-map-pin" aria-hidden="true" style="font-size:12px;"></i> [Your address]</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

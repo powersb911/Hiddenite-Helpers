@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hiddenite Helpers Food Pantry</title>
+    <meta name="description" content="Hiddenite Helpers is a community food pantry serving families in Hiddenite, NC. Donate, volunteer, or host a food drive to help fight hunger in our community.">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gochi+Hand&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Favicon -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 24 24%22><text y=%2220%22 font-size=%2220%22>🌿</text></svg>">
+</head>
+<body>
+
+    <!-- 1. NAVIGATION -->
+    <header>
+        <div class="container nav-container">
+            <a href="#" class="logo">
+                <i class="fa-solid fa-leaf"></i> Hiddenite Helpers
+            </a>
+
+            <input type="checkbox" id="nav-toggle" class="nav-toggle-checkbox">
+            <label for="nav-toggle" class="nav-toggle-label" aria-label="Toggle navigation menu">
+                <i class="fa-solid fa-bars"></i>
+            </label>
+
+            <nav class="nav-links">
+                <a href="#">Home</a>
+                <a href="#about">About us</a>
+                <a href="#ways-to-help">Ways to help ▾</a>
+                <a href="#gallery">Gallery</a>
+                <a href="#contact">Contact</a>
+            </nav>
+            <!-- TODO: point every "Donate" button/link on this page at your PayPal donate link once the account is set up.
+                 Simplest path: create a PayPal "Donate" button at paypal.com/buttons, then use the link it gives you,
+                 e.g. https://www.paypal.com/donate/?business=YOUR_PAYPAL_EMAIL&currency_code=USD -->
+            <a href="#" class="btn btn-primary"><i class="fa-solid fa-heart"></i> Donate now</a>
+        </div>
+    </header>
+
+    <!-- 2. HERO -->
+    <section class="hero">
+        <div class="container">
+            <h1>Nourishing our city,<br>one family at a time</h1>
+            <p>500+ families served every month in our community</p>
+            <div class="hero-btns">
+                <a href="#" class="btn btn-primary"><i class="fa-solid fa-heart"></i> Donate now</a>
+                <a href="#contact" class="btn btn-outline"><i class="fa-solid fa-user"></i> Volunteer</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. IMPACT STATS -->
+    <!-- TODO: confirm these numbers are accurate before launch -->
+    <section class="stats-bar">
+        <div class="container stats-grid">
+            <div class="stat-item">
+                <i class="fa-solid fa-users"></i>
+                <h3>500+</h3>
+                <p>Families served monthly</p>
+            </div>
+            <div class="stat-item">
+                <i class="fa-solid fa-box-open"></i>
+                <h3>10,000 lbs</h3>
+                <p>Food distributed</p>
+            </div>
+            <div class="stat-item">
+                <i class="fa-regular fa-calendar-check"></i>
+                <h3>10 years</h3>
+                <p>Serving the community</p>
+            </div>
+            <div class="stat-item">
+                <i class="fa-solid fa-hand-holding-heart"></i>
+                <h3>150+</h3>
+                <p>Active volunteers</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. HOW IT WORKS -->
+    <section class="how-it-works">
+        <div class="container">
+            <h2 class="section-title">How your donation works</h2>
+            <div class="steps-container">
+                <div class="step">
+                    <div class="step-icon"><i class="fa-solid fa-heart"></i></div>
+                    <h4>You donate</h4>
+                    <p>Online or in-person</p>
+                </div>
+                <div class="step-arrow"><i class="fa-solid fa-arrow-right"></i></div>
+                <div class="step">
+                    <div class="step-icon"><i class="fa-solid fa-tractor"></i></div>
+                    <h4>We source</h4>
+                    <p>Local farms & partners</p>
+                </div>
+                <div class="step-arrow"><i class="fa-solid fa-arrow-right"></i></div>
+                <div class="step">
+                    <div class="step-icon"><i class="fa-solid fa-box"></i></div>
+                    <h4>We pack</h4>
+                    <p>Volunteers pack boxes</p>
+                </div>
+                <div class="step-arrow"><i class="fa-solid fa-arrow-right"></i></div>
+                <div class="step">
+                    <div class="step-icon"><i class="fa-solid fa-house-chimney"></i></div>
+                    <h4>Families eat</h4>
+                    <p>Fresh food, real impact</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. DONATION TIERS -->
+    <section class="tiers-section">
+        <div class="container">
+            <h2 class="section-title">Choose the right plan for you!</h2>
+
+            <div class="tiers-grid">
+                <!-- Tier 1 -->
+                <div class="tier-card">
+                    <div class="tier-header">
+                        <div class="tier-name">Friend</div>
+                        <div class="tier-price">$25<span>/mo</span></div>
+                        <div class="tier-desc">Feeds a family for one week</div>
+                        <ul class="tier-perks">
+                            <li><i class="fa-solid fa-check"></i> Monthly impact email</li>
+                            <li><i class="fa-solid fa-check"></i> Donor newsletter</li>
+                        </ul>
+                    </div>
+                    <div class="tier-image" role="img" aria-label="Fresh produce box" style="background-image: url('https://images.unsplash.com/photo-1596162954151-cdcb927f4b39?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80');">
+                        <!-- TODO: link to PayPal recurring donate link for the $25/mo tier -->
+                        <a href="#" class="btn btn-primary" style="width: 80%;">Give $25/mo</a>
+                    </div>
+                </div>
+
+                <!-- Tier 2 (Popular) -->
+                <div class="tier-card popular" style="position: relative;">
+                    <div class="popular-badge">Most popular</div>
+                    <div class="tier-header">
+                        <div class="tier-name">Champion</div>
+                        <div class="tier-price">$50<span>/mo</span></div>
+                        <div class="tier-desc">Feeds two families for a week</div>
+                        <ul class="tier-perks">
+                            <li><i class="fa-solid fa-check"></i> Monthly impact email</li>
+                            <li><i class="fa-solid fa-check"></i> Donor newsletter</li>
+                            <li><i class="fa-solid fa-check"></i> Personalized thank-you</li>
+                        </ul>
+                    </div>
+                    <div class="tier-image" role="img" aria-label="Volunteers packing food boxes" style="background-image: url('https://images.unsplash.com/photo-1610348725531-843dcf5aad8b?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80');">
+                        <!-- TODO: link to PayPal recurring donate link for the $50/mo tier -->
+                        <a href="#" class="btn btn-primary" style="width: 80%; background-color: var(--color-brown-dark); border-color: var(--color-brown-dark);">Give $50/mo</a>
+                    </div>
+                </div>
+
+                <!-- Tier 3 -->
+                <div class="tier-card">
+                    <div class="tier-header">
+                        <div class="tier-name">Sustainer</div>
+                        <div class="tier-price">$100<span>/mo</span></div>
+                        <div class="tier-desc">Feeds a family for a full month</div>
+                        <ul class="tier-perks">
+                            <li><i class="fa-solid fa-check"></i> All Champion perks</li>
+                            <li><i class="fa-solid fa-check"></i> Annual recognition event</li>
+                            <li><i class="fa-solid fa-check"></i> Name on donor wall</li>
+                        </ul>
+                    </div>
+                    <div class="tier-image" role="img" aria-label="Family receiving groceries" style="background-image: url('https://images.unsplash.com/photo-1542838132-92c53300491e?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80');">
+                        <!-- TODO: link to PayPal recurring donate link for the $100/mo tier -->
+                        <a href="#" class="btn btn-primary" style="width: 80%;">Give $100/mo</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="one-time-box">
+                <p><strong>Prefer a one-time gift?</strong> Enter any amount.</p>
+                <div style="display: flex; gap: 10px;">
+                    <label for="one-time-amount" class="sr-only">Donation amount in dollars</label>
+                    <input id="one-time-amount" type="number" class="one-time-input" placeholder="$ 0.00">
+                    <!-- TODO: link to a PayPal donate link that accepts a custom amount -->
+                    <button class="btn btn-primary"><i class="fa-solid fa-heart"></i> Donate</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 6. WAYS TO HELP -->
+    <section class="ways-to-help" id="ways-to-help">
+        <div class="container">
+            <h2 class="section-title">Other ways to help</h2>
+            <div class="ways-grid">
+                <div class="way-card">
+                    <i class="fa-solid fa-gift"></i>
+                    <h4>Donate food</h4>
+                    <p>Drop off at any of our locations</p>
+                    <a href="#contact" class="btn btn-outline">Learn more</a>
+                </div>
+                <div class="way-card">
+                    <i class="fa-solid fa-users-viewfinder"></i>
+                    <h4>Volunteer</h4>
+                    <p>Pack boxes, sort donations, run drives</p>
+                    <a href="#contact" class="btn btn-outline">Sign up</a>
+                </div>
+                <div class="way-card">
+                    <i class="fa-regular fa-calendar-plus"></i>
+                    <h4>Host a drive</h4>
+                    <p>At your school, church, or workplace</p>
+                    <a href="#contact" class="btn btn-outline">Get a kit</a>
+                </div>
+                <div class="way-card">
+                    <i class="fa-solid fa-star"></i>
+                    <h4>Sponsor</h4>
+                    <p>Partner for larger community impact</p>
+                    <a href="#contact" class="btn btn-outline">Partner with us</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 7 & 8. ABOUT & GALLERY -->
+    <section class="about-gallery-section">
+        <div class="container">
+
+            <div class="split-grid">
+                <div class="about-content" id="about">
+                    <h3>Why we exist</h3>
+                    <p>In 2014, a group of neighbors saw that too many families in our community were quietly struggling to put dinner on the table. We started out of a single garage, gathering extra produce from local farmers to share with those in need.</p>
+                    <p>Today, Hiddenite Helpers operates a full-scale pantry, but our mission remains the same: ensuring no one in our town goes to bed hungry. We believe in dignity, community, and the power of fresh, healthy food.</p>
+                    <a href="#" class="btn btn-outline">Our full story <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+                <!-- TODO: replace every Unsplash stock photo below with real photos of Hiddenite Helpers -->
+                <div class="gallery-preview" id="gallery">
+                    <div class="gallery-grid">
+                        <div class="gallery-item" role="img" aria-label="Volunteers sorting donated food" style="background-image: url('https://images.unsplash.com/photo-1593113630400-ea4288922497?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80');"></div>
+                        <div class="gallery-item" role="img" aria-label="Fresh produce ready for distribution" style="background-image: url('https://images.unsplash.com/photo-1488459716781-31db52582fe9?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80');"></div>
+                        <div class="gallery-item" role="img" aria-label="Volunteers packing grocery boxes" style="background-image: url('https://images.unsplash.com/photo-1559027615-cd4628902d4a?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80');"></div>
+                        <div class="gallery-item" role="img" aria-label="Community food drive" style="background-image: url('https://images.unsplash.com/photo-1603048297172-c92544798d5e?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80');"></div>
+                        <div class="gallery-item" role="img" aria-label="Pantry shelves stocked with donations" style="background-image: url('https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80');"></div>
+                        <div class="gallery-item gallery-more">
+                            <i class="fa-solid fa-plus" style="font-size: 24px; margin-bottom: 5px;"></i>
+                            <span>50 more<br>View gallery</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 9. PARTNERS -->
+            <!-- TODO: replace these placeholders with your real local partner/sponsor logos -->
+            <div class="partners">
+                <div class="partners-flex">
+                    <div class="partner-placeholder">Your Partner Here</div>
+                    <div class="partner-placeholder">Your Partner Here</div>
+                    <div class="partner-placeholder">Your Partner Here</div>
+                    <div class="partner-placeholder">Your Partner Here</div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- 10. NEWSLETTER -->
+    <section class="newsletter">
+        <div class="container">
+            <div class="newsletter-flex">
+                <div class="newsletter-text">
+                    <h4>Stay in the loop</h4>
+                    <p>Monthly updates on impact, upcoming drives, and ways to help.</p>
+                </div>
+                <!-- TODO: wire this form up to an email list provider (e.g. Mailchimp signup form action) -->
+                <form class="newsletter-form">
+                    <label for="newsletter-email" class="sr-only">Email address</label>
+                    <input id="newsletter-email" type="email" placeholder="Your email address" required>
+                    <button type="submit" class="btn btn-primary">Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- 11. FOOTER -->
+    <footer id="contact">
+        <div class="container">
+            <div class="footer-grid">
+                <div>
+                    <a href="#" class="footer-logo">
+                        <i class="fa-solid fa-leaf" style="color: var(--color-olive);"></i> Hiddenite Helpers
+                    </a>
+                    <!-- TODO: replace with your real EIN -->
+                    <p>501(c)(3) nonprofit<br>EIN: [YOUR EIN HERE]</p>
+                    <div class="footer-socials">
+                        <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fa-brands fa-twitter"></i></a>
+                    </div>
+                </div>
+                <div>
+                    <h5>Navigate</h5>
+                    <ul class="footer-links">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#about">About us</a></li>
+                        <li><a href="#ways-to-help">Ways to help</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h5>Ways to help</h5>
+                    <ul class="footer-links">
+                        <li><a href="#">Donate money</a></li>
+                        <li><a href="#ways-to-help">Donate food</a></li>
+                        <li><a href="#ways-to-help">Volunteer</a></li>
+                        <li><a href="#ways-to-help">Host a drive</a></li>
+                        <li><a href="#ways-to-help">Sponsor</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h5>Contact</h5>
+                    <!-- TODO: replace with your real phone number and address -->
+                    <ul class="footer-contact footer-links">
+                        <li><i class="fa-solid fa-envelope"></i> <span>info@hiddenitehelpers.org</span></li>
+                        <li><i class="fa-solid fa-phone"></i> <span>[YOUR PHONE NUMBER]</span></li>
+                        <li><i class="fa-solid fa-location-dot"></i> <span>[YOUR STREET ADDRESS]<br>Hiddenite, NC 28636</span></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Hiddenite Helpers Food Pantry. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
